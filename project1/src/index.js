@@ -1,12 +1,19 @@
+//import required React Libraries
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Heading from './Components/Heading'
 
-import ReactDOM from 'react-dom/client';
+const Abhishek = "Abhishek Kange";
 
 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
- 
+ReactDOM.render(
+  <>
+    <h1>This is {Abhishek}</h1>
+    <h2>{`My name is ${Abhishek}. Pune city`}</h2>
+    <Heading/>
+  
+  </>,
+  document.getElementById('root')
 );
 
 
