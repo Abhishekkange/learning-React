@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Heading from './Components/Heading'
 import Component1 from './Components/Component1';
+import EventsInReact from './Components/EventsInReact';
 
 const Abhishek = "Abhishek Kange";
 
@@ -13,6 +14,7 @@ ReactDOM.render(
     <h2>{`My name is ${Abhishek}. Pune city`}</h2>
     <Heading/>
     <Component1/>
+    <EventsInReact/>
    
   
   </>,

@@ -14,10 +14,8 @@ const updateCounter = ()=>{
         console.log("Counter updated !!");
 }
 
-
     return (
         <>
-
         <h3 onClick={updateCounter}>{`counter`}</h3>
         <h4>{counter}</h4>
         </>
