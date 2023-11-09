@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Heading from './Components/Heading'
 import Component1 from './Components/Component1';
 import EventsInReact from './Components/EventsInReact';
+import InputField from './Components/InputField';
 
 const Abhishek = "Abhishek Kange";
 
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Heading/>
     <Component1/>
     <EventsInReact/>
+    <InputField/>
    
   
   </>,
